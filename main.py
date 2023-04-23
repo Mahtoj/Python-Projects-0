@@ -1,12 +1,8 @@
-#Small Change to File
-
 #Print Hello World
 
-print("Hello World!")
+print("Testing Commit!")
 
-#Print Hello World
-
-print("Bye World!")
+#Testing Second Commit
 
 # This is a sample Python script.
 
