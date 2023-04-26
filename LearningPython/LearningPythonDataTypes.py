@@ -31,12 +31,13 @@ while True:
     elif answer == "yes":
         print("I'm so glad to hear that!")
         print(" ")
+
         while True:
-            data_type = input("Which of the following would you like to see"
+            data_type = input("Which of the following would you like to see:"
                                    "\n •What is a string? Type str"
                                    "\n •What is an integer? Type int"
                                    "\n •What is an float? Type flt"
-                                   "\n •What to quit? Type quit"
+                                   "\n •Return to beginning? Type done"
                                    "\nI want to see an example of: ")
             if data_type == "str":
                 print(" ")
@@ -54,7 +55,7 @@ while True:
             elif data_type == "flt":
                 print("...")
                 break
-            elif data_type == "quit":
+            elif data_type == "done":
                 break
     else:
         print("Invalid answer. Please try again.")
