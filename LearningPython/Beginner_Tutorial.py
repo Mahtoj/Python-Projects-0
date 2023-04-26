@@ -4,6 +4,7 @@
 #func: Write out beginner tutorial about learning Pyton
 #mods: JK 4/23/2023 version 1.0.0 learning how python works, wrote a simple calc, output for a modulus, type ok to continue, bomb drop,
 #      JK 4/24/2023 version 1.0.1 added an example of a loop, while loop, for i in range, prints each count of i,
+#      JK 4/25/2023 version 1.0.2
 
 #import statement should be written at the top of your python file
 import time
@@ -93,7 +94,7 @@ while seats > 0:
     seats = seats - 1
 
 
-# While Loop ############################################################################################################
+# for Loop ############################################################################################################
 
 
 #for i in range, prints each count of i
@@ -104,7 +105,7 @@ for i in range(4):
   print(i)
 
 
-# Loop Exmaple ###########################################################################################################
+# Loop Exmaples #########################################################################################################
 
 
 #loop with counter
@@ -115,3 +116,31 @@ counter = 0
 while counter < 4:
     print(counter)
     counter = counter + 1
+
+# code a while loop
+
+print("while loop i = 0")
+
+# loop if i = 0
+i = 0
+while i < 5 :
+    print(i)
+    # i increases by 1
+    i = i + 1
+
+# separate
+print("")
+print("--")
+print("")
+
+print("while loop i = 2")
+
+# loop if i = 2
+i = 2
+while i < 5 :
+    print(i)
+    # i increases by 1
+    i = i + 1
+
+# Generally, use 'for' loops when the number of iterations is known and 'while' loops for when there is a condition
+# that needs to be met.
