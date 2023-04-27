@@ -50,12 +50,29 @@ while True:
                 break
 
             elif data_type == "int":
-                print("....")
+                print(" ")
+                print("An Integer is a data type that represents a whole numbers. This can be a postiive, negative, or zero. They can represent a variety of values, such as quantity, year, age, etc.")
+                print(" •-100")
+                print(' •0')
+                print(" •print('100')")
+                print(' •print("83")')
+                print(" ")
                 break
+
             elif data_type == "flt":
-                print("...")
+                print(" ")
+                print("A Float is a data type that represents a floating-point number. This can be a positive, negative, or zero. they can repsent a price, speed of an object, quantiy, etc.")
+                print(" •-83.00")
+                print(' •0.00')
+                print(" •print(float('-100'))")
+                print("   ↳ -100.00")
+                print(' •print(float("83"))')
+                print("   ↳ 83.00")
+                print(" ")
                 break
+
             elif data_type == "done":
                 break
     else:
         print("Invalid answer. Please try again.")
+
