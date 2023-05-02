@@ -2,6 +2,7 @@
 #auth: Jotham King
 #date: 4/29/2023
 #func: practice list operations.
+#   JK 5/1/2023 added more list operations examples
 
 
 #list of items
@@ -52,7 +53,48 @@ print(a[3])
 
 #new example#################
 
-#
+#search for value in list, return true or false
 
 words1 = ["spam", "egg", "spam", "sausage"]
-print()
+print("spam" in words1)
+print("egg" in words1)
+print("tomato" in words1)
+
+#new example#################
+
+l = [2, 4]
+l = l * 2
+print(l[3])
+
+#new example#################
+
+nums1=[10,9,8,7,6,5]
+nums1[0] = nums1[1]-5
+if 4 in nums1:
+    print(nums1[3])
+else:
+    print(nums1[4])
+
+#new example#################
+
+j = "hello world"
+
+if "world" in x:
+    print(yes)
+
+#Not operator#################
+
+#not operator can be used in one of the following ways
+nums2 = [1, 2, 3]
+print(not 4 in nums2)
+print(4 not in nums2)
+print(not 3 in nums2)
+print(3 not in nums2)
+
+#User Inpuit#################
+
+g = [1, 2, 3, 4, 5, 6]
+
+userinput = int(input("Write Input:"))
+if userinput in g:
+    print("Bingo")
