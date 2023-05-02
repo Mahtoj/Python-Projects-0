@@ -67,3 +67,16 @@ for num3 in x:
     sum1 += num3
 
 print(sum1)
+
+
+print("Example #8")
+nums5=[1,2,3,4]
+res5=0
+
+for x in nums5:
+    if x%2==0:
+        continue
+    else:
+        res5 +=x
+
+print(res5)
