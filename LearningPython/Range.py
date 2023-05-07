@@ -54,3 +54,23 @@ print(list)
 #
 x = int(range(0,100))
 print(list[4])
+
+#feedback from Dick
+good_entry = false
+while not good_entry:
+    try:
+        #input to list range
+        print("enter a new from range")
+        a = int(input())
+        print("enter a new to range")
+        b = int(input())
+
+        list = list(range(a, b))
+        print(list)
+        good_entry = True
+    except ValueError:
+        good_entry = False
+#
+# x = int(range(0,1000))
+x = ranage(0,100)
+print9list[4]
