@@ -71,3 +71,13 @@ print(str[-1])
 
 nums2 = [1, 2, 3, 4, 5]
 print(nums2[1:-1])
+
+print("test")
+
+list1 = [1,1,2,3,5,8,13]
+print(list1[list1[4]])
+
+
+x1 = [6, 4, 2, 9]
+x1 = x1[::-1]
+print(x1[0]+x1[2])
