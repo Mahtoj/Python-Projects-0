@@ -95,3 +95,10 @@ queue = ['John', 'Amy', 'bob', 'Adam']
 uinput = input()
 queue.append(uinput)
 print(queue)
+
+
+nums9 = [2,4,8,9,5]
+nums9.insert(1,3)
+nums9.remove(9)
+nums9.insert(0, nums9.count(8))
+print(nums[3])
