@@ -2,6 +2,7 @@
 #auth: Jotham King
 #date: 4/26/2023
 #func: write a MadLib Game where the madlib is random selected from a group of sentences.
+#      jk 5/15/2023 version 1.0.1 corrected loop construct for if/elif/else. Thank you for the feedback rjw
 
 import random
 import time
@@ -18,7 +19,7 @@ for character in ['←', '\b', '↖', '\b', '↑', '\b', '↗', '\b', '→', '\b
     time.sleep(.25)
 
 #display one character at a time with a 0.25 second delay
-text = "MadLib Loaded."
+text = "MadLib Loaded. \n"
 
 for character in text:
     print(character, end="")
@@ -33,11 +34,11 @@ while True:
         print("I went to the",place,"and saw",person,"\b. They were",verb,"so",adjective,"that I started",verb,"too!")
         break
 
-    if random_number == 1:
+    elif random_number == 1:
         print(person,"went to",place,"and started",verb,"and I was",adjective,"to see.")
         break
 
-    if random_number == 2:
+    else random_number == 2:
         print(person,"went to the",place,"and saw a",adjective,"dog.")
         break
 
